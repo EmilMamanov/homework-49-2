@@ -14,3 +14,6 @@ function generateChessboard(size: number): string {
 
     return chessboard;
 }
+const boardSize = 4; // Размер доски (4x4 в данном примере)
+const chessboard = generateChessboard(boardSize);
+console.log(chessboard);
